@@ -1,0 +1,169 @@
+/* test de liaison */
+/* background-color: brown; */
+* {
+    background-color: rgb(250, 238, 224);
+  
+}
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ /* barre de navigation */
+ header {
+  background-color: #333333;
+  color: rgb(192, 144, 144);
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight:300;
+  width: 100%;
+}
+.barreNav {
+  display: inline;
+  background-color:#333333;
+  margin: auto;
+  text-align: center;
+}
+.photo {
+  display: inline-block;
+  border-radius:30%;
+  background-color:#333333;
+}
+.liste {
+  display: inline-block;
+  background-color:#333333;
+  margin-left: 20px;
+}
+.liste li {
+  display: inline;
+  background-color:#333333;
+  margin-left: auto;
+}
+.liste li a {
+  color: white;
+  text-decoration: none;
+  background-color:#333333;
+  margin-right: 5px;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+.liste li a:hover {
+  background-color: #096c43;
+  border-radius: 5px;
+}
+/* ************************************************************** */
+
+/* section About */
+#About {
+  text-align: center;
+}
+#About h1 {
+  font-size: 20px;
+  color: #014b20c8;
+  margin-top: 50px;
+  margin-bottom: 05px;
+}
+
+/* ********************************************************** */
+ /* section Work */
+#Work {
+  text-align: center;
+}
+#Work h1 {
+  font-size: 20px;
+  color: #014b20c8;
+  margin-top: 50px;
+  margin-bottom: 05px;
+}
+#Work p {
+    margin: 40px;
+}
+
+#Work video {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+/* ********************************************************** */
+ /* section Resume */
+#Resume {
+  text-align: center;
+}
+#Resume h1{
+  text-align: center;
+  font-size: 20px;
+  color: #014b20c8;
+  margin-top: 50px;
+}
+#Resume a {
+  color: #014b20c8;
+  text-decoration: none;
+  margin-right: 1px;
+  padding: 4px;
+  transition: background-color 0.3s;
+}
+#Resume a:hover {
+  background-color: rgb(14, 158, 74);
+  border-radius: 50px;
+}
+
+/* ********************************************************** */
+ /* section Contact */
+ .contact {
+  text-align: center;
+  margin:auto;
+  padding: 30px;
+
+     label {
+        display: block;
+        margin: 02px;
+    }
+    input, textarea {
+        width: 25%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid #333333;
+    }
+    button {
+        display: block;
+        background-color: rgb(14, 158, 74);
+        color:black;
+        border:none;
+        border-radius: 30px;
+        padding: 10px;
+        margin-left: 50%;
+        transition: background-color 0.3s;
+    }
+    button:hover {
+        background-color: rgb(132, 77, 29);
+        border-radius: 30px;
+    }
+}
+
+/* ********************************************************* */
+/* section footer */
+footer {
+    background-color: #333333;
+    color: rgba(239, 185, 150, 0.986);
+    padding:15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:200;
+    width: 100%;
+}
+footer p {
+    background-color:#333333;
+}
+footer a {
+    color:rgba(227, 150, 61, 0.851);
+    text-decoration: none;
+    background-color:#333333;
+}
+footer a:hover {
+    color: #096c43;
+    background-color:#333333;
+}

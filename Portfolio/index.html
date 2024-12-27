@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+          <meta charset="UTF-8"/> 
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!-- la prochaine ligne est un titre -->
+        <title> Portfolio </title>
+
+      <!-- je mets une img-icone en barre de titre-->
+          <link rel="shortcut icon"
+                href="C:\Users\Redouane\Desktop\Software Developer\GoMyCode\Assets\image icon.png" 
+                type="image/x-icon"/>
+
+                <!-- style css externe -->
+            <link rel="stylesheet" href="styles.css"/>
+    </head>
+
+     <!-- *************************************************************************************************** -->
+     
+    <body id="Home">
+    <header>
+            <!-- barre de navigation -->
+             <nav class="barreNav">
+                <img class="photo" src="C:\Users\Redouane\Desktop\Software Developer\GoMyCode\Assets\IMG_20240725_205736.jpg" 
+                     alt="photo" width="10%"  height="10%"/>
+                <ul class="liste">
+                    <li><a href="#Home"> Home </a></li>
+
+                    <li><a href="#About"> About </a></li>
+                    
+                    <li><a href="#Work"> Work</a></li>
+                    
+                    <li><a href="#Resume"> Resume </a></li>
+                    
+                    <li><a href="#Contact"> Contact </a></li>
+                </ul>
+
+             </nav>
+            
+    </header>
+                    <!--********************************************************************************-->
+    <main>
+     <section id="About">
+                 <!--Biographie-->
+
+          <h1> A Propos de Chafik </h1>
+          <p> Je suis un jeune médecin dentiste, ayant obtenu son diplome avec mention très honorable, après un cursus de 6 ans de formation et d'apprentissage dans le domaine de la dentisterie.</p>
+          <p> J'ai fait mes stages d'externat et d'internat dans des hopitaux d'Alger, dans les spécialités de la Parodontologie et l'Odontologie Conservatrice.</p>
+          <p> J'ai également acquis une expèrience professionnelle en travaillant dans des cabinets privés et dans un établissement de santé publique.</p>
+          <p> Je dispose également d'un certificat en secourisme et premiers soins, ainsi que d'un diplome en délégation médicale et commerciale.</p>
+          <p> Je suis également passionné par le domaine de l'informatique, et ce depuis tout petit, ce qui m'a encouragé à vouloir devenir un développeur web.</p>
+        
+     </section>
+     <section id="Work" >
+            <!-- Ceux ci sont mes travaux -->
+        <h1> Mon Travail </h1>
+        <p> Mon job consiste principalement à détécter et diagnostiquer et éventuellement traiter tout problème en rapport avec la sphère oral, et cela part de la simple motivation et l'information sur l'importance de la santé buccodentaire, aux différentes pratiques sanitaires.</p>
+        <p> Je réalise des soins dentaires pour traiter les caries et infections dentaires</p>
+
+        <video width="300px"  height="300px" controls> 
+          <source src="C:\Users\Redouane\Desktop\Software Developer\GoMyCode\Assets\Soigner les sillons dentaires infiltrés de carie.mp4" 
+                 type="video/mp4">
+          Veuillez vérifier votre navigateur
+        </video>
+
+        <p> Je suis aussi habilité à faire un assainissement de la cavité buccale par le biais d'un bon détartrage afin de rendre et maintenir les dents et gencives en bonne santé</p>
+        <video width="300px"  height="300px" controls> 
+          <source src="C:\Users\Redouane\Desktop\Software Developer\GoMyCode\Assets\Nettoyage des dents d'hygiène bucco-dentaire avec détartrage à ultrasons.mp4" 
+                 type="video/mp4"> </video>
+        <p> Les avulsions dentaires sont aussi un palier important dans ma pratique quotidienne, et ce à différentes fins, notamment la réhabilitation prothétique.</p>
+        
+        <img src="C:\Users\Redouane\Desktop\Software Developer\GoMyCode\Assets\carie_dentaire_traitement_dentiste_Laval.jpg" 
+                 alt="photo" 
+                 width="20%"  height="20%"/>
+        <audio controls>
+          <source src="C:\Users\Redouane\Desktop\Software Developer\GoMyCode\Assets\videoplayback.mp3" type="audio/mp3">
+        </audio>
+        
+        <iframe id="Work" src="https://youtu.be/ccOFro9_hNE?si=Prb_hE6PivZbLJ8O"  width="300px"  height="300px">
+        </iframe>
+
+     </section>  
+          <br> <br> <br>
+     <section id="Resume">
+            <!-- Ajouter le LinkedIn directement pour le moment-->
+            <h1> Curriculum Vitae </h1>
+            <p>On a fait le tour sur mes différentes taches, en quoi consiste mon travail d'une manière brève.</p>
+            <p> Vous trouverez une description plus approfondie de ma carrière et mes différentes expériences professionnelles dans mon résumé en cliquant sur
+                <a href="https://www.linkedin.com/in/chafik-telli-1b1b3b1b3/" target="_blank"> Mon CV </a>
+            </p>
+            
+       </section>  
+         <section id="Contact">
+                <!-- Ajouter un formulaire de contact en table pour mieux afficher-->
+                 <form class="contact">
+                      <label for="name"> Nom </label>
+
+                      <input type="text" id="name" name="name" placeholder="Votre nom">
+  
+                      <label for="email"> Email </label>
+  
+                      <input type="email" id="email" name="email" placeholder="Votre email">
+  
+                      <label for="message"> Message </label>
+  
+                      <textarea id="message" name="message" placeholder="Votre message"></textarea>
+  
+                      <button> Envoyer </button>
+                 </form>
+            </section> 
+      </main>
+            <!-- *************************************************************************************************** -->
+             
+         <footer>
+          <p> © TELLI Chafik. Tous droits réservés. 2024 </p>
+          <p> Mon email: 
+              <a href="mailto:drchafiktelli@gmail.com"> drchafiktelli@gmail.com </a>
+         </footer>
+     </body>
+
+</html>
